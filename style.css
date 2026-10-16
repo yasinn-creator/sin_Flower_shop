@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8fa;
+    color: #333333;
+}
+
+.brand {
+    background-color: #e89aaa;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.brand h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.brand p {
+    font-size: 16px;
+}
+
+nav {
+    background-color: #b85c72;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe5a3;
+}
+
+.sambutan {
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #f0c5ce;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.sambutan h2 {
+    color: #b85c72;
+    font-size: 28px;
+}
+
+.sambutan p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.tombol {
+    display: inline-block;
+    background-color: #b85c72;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.tombol:hover {
+    background-color: #913e54;
+}
+
+.bagian-produk {
+    padding: 25px;
+    text-align: center;
+}
+
+.bagian-produk h2 {
+    color: #b85c72;
+    font-size: 26px;
+}
+
+.kartu-produk {
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+    margin: 12px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #f0c5ce;
+    border-radius: 12px;
+}
+
+.kartu-produk img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.kartu-produk h3 {
+    color: #b85c72;
+    font-size: 20px;
+}
+
+.kartu-produk p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.harga {
+    color: #b33c5a;
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+.isi-halaman {
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #f0c5ce;
+    border-radius: 12px;
+}
+
+.isi-halaman h2 {
+    color: #b85c72;
+    font-size: 24px;
+}
+
+.isi-halaman p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.data-pembuat {
+    background-color: #fff0f3;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #b85c72;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .sambutan,
+    .isi-halaman {
+        width: 92%;
+        padding: 18px;
+    }
+
+    .kartu-produk {
+        width: 90%;
+        max-width: 300px;
+    }
+}
